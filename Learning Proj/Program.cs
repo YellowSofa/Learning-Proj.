@@ -112,7 +112,7 @@
 
 //string firstname = "Lebron";
 //string surename = "James";
-//while (firstname != "Santa" && surename != "Claus")
+//while (firstname != "Santa" || surename != "Claus")
 //{
 //    Console.WriteLine("Who brings you presents for christmas");
 //    string firstname1 = Console.ReadLine();
