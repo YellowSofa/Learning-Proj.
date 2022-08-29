@@ -122,3 +122,32 @@
 
 //}
 //Console.WriteLine("IKR hes such a good guy");
+
+// array challenge yeyeye
+//int[] nums = {1,2,3,4,5,6,7,8,9,10};
+//for(i = nums.Length - 1 ; i >= 0; i = i - 1)
+//    Console.WriteLine(nums[i]);
+
+//Console.ReadLine();
+
+//int Total = 0;
+//int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//for ( int i = 0 ; i < nums.Length; i++ )
+//{
+//    Total = Total + nums[i];
+
+//}
+//double average = Total / nums.Length;
+//Console.WriteLine(average);
+
+string[] Names = new string[5];
+
+for(int count = 0; count < Names.Length; count++)
+{
+    string name = Console.ReadLine();
+    Names[count] = name;
+}
+for(int loop = 0; loop < Names.Length; loop++)
+{
+    Console.WriteLine(Names[loop]);
+}
