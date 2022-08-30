@@ -140,14 +140,65 @@
 //double average = Total / nums.Length;
 //Console.WriteLine(average);
 
-string[] Names = new string[5];
+//string[] Names = new string[5];
 
-for(int count = 0; count < Names.Length; count++)
+//for(int count = 0; count < Names.Length; count++)
+//{
+//    string name = Console.ReadLine();
+//    Names[count] = name;
+//}
+//for(int loop = 0; loop < Names.Length; loop++)
+//{
+//    Console.WriteLine(Names[loop]);
+//}
+
+
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+
+//int[] NUMBERS = new int[50];
+//for (int count = 0; count < NUMBERS.Length; count++)
+//{
+//    int Rnum = new Random().Next(1,101);
+//    NUMBERS[count] = Rnum;
+
+//}
+////smallet
+//int smallest = NUMBERS[0];
+//for (int count = 0; count < NUMBERS.Length; count++)
+//{
+//    if (NUMBERS[count] < smallest)
+//    {
+//        smallest = NUMBERS[count];
+//    }
+//}
+
+////highest
+//int Highest = NUMBERS[0];
+//for(int count = 0; count < NUMBERS.Length; count++)
+//{
+//    if (NUMBERS[count] > Highest)
+//    {
+//        Highest = NUMBERS[count];
+//    }
+//}
+
+////output
+//Console.WriteLine("the highest number is " + Highest + " the smallest number is " + smallest);
+
+
+
+string[] NAMES = {"larry" , "garry" , "barry" , "harry" , "mary"};
+string input = Console.ReadLine();
+int count = 0;
+while(input != NAMES[count])
 {
-    string name = Console.ReadLine();
-    Names[count] = name;
-}
-for(int loop = 0; loop < Names.Length; loop++)
-{
-    Console.WriteLine(Names[loop]);
+if (input != NAMES[count])
+    {
+        count++;
+    }
+if (count = 5)
+    {
+        input = "larry";
+    }
 }
