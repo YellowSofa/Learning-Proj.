@@ -188,17 +188,70 @@ using System.Security.Cryptography.X509Certificates;
 
 
 
-string[] NAMES = {"larry" , "garry" , "barry" , "harry" , "mary"};
-string input = Console.ReadLine();
-int count = 0;
-while(input != NAMES[count])
-{
-if (input != NAMES[count])
-    {
-        count++;
-    }
-if (count = 5)
-    {
-        input = "larry";
-    }
-}
+//string[] NAMES = {"larry" , "garry" , "barry" , "harry" , "mary"};
+//string input = Console.ReadLine();
+//int count = 0;
+//while(input != NAMES[count])
+//{
+//if (input != NAMES[count])
+//    {
+//        count++;
+//    }
+//if (count = 5)
+//    {
+//        input = "larry";
+//    }
+//}
+
+
+//string[] NAMES = { "bob", "allan", "chad", "don", "ed" };
+//string in1 = "";
+//string in2 = "";
+//int count = 0;
+//int num = NAMES.Length;
+//while (in1 != NAMES[count] && in2 != NAMES[count + 1] && count < NAMES.Length)
+//{
+//    in1 = Console.ReadLine();
+//    in2 = Console.ReadLine();
+//    if (in1 != NAMES[count] || in2 != NAMES[count + 1])
+//    {
+//        count = count + 1;
+//    }
+//    else if (in1 = NAMES[NAMES.Length])
+//    {
+//        Console.WriteLine("NO");
+//    }
+//    else
+//    {
+//        Console.WriteLine("NC1");
+//    }
+//}
+
+
+//int[] nums = new int[100];
+//for (int count = 0; count < nums.Length; count++)
+//{
+//    int Rnum = new Random().Next(1, 101);
+//    nums[count] = Rnum;
+//}
+//for (int count = 0; count < nums.Length; count++)
+//{
+//    if (nums[count] > 30 && nums[count] < 60)
+//    {
+//        Console.WriteLine(nums[count]);
+//    }
+//}
+
+//string[] places = { "America", "America", "Bolivia", "Chille", "Denmark", "Denmark" };
+//string[] dups = new string[9999999];
+//string input = places[0];
+//for (int count = 0; count < places.Length; count++)
+//{
+//    for (int loop = count + 1; loop < places.Length; loop++)
+//    {
+//        if (places[count] == places[loop])
+//            Console.WriteLine(places[count]);
+//    }
+//}
+
+
