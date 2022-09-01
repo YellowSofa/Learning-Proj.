@@ -254,4 +254,55 @@ using System.Security.Cryptography.X509Certificates;
 //    }
 //}
 
+//challenge 11
+
+//string[] NAMES = { "aron", "bob", "chris", "dan", "earl" };
+//string delete = "aron";
+//for (int count = 0; count < NAMES.Length; count++)
+//{
+//    if (NAMES[count] == delete)
+//    {
+//        NAMES[count] = NAMES[count + 1];
+//    }
+//}
+
+//for (int count = 1; count < NAMES.Length; count++)
+//{
+//    if (count == NAMES.Length - 1)
+//    {
+//        Console.WriteLine(".");
+//    }
+//    else
+
+//    {
+//        NAMES[count] = NAMES[count + 1];
+//    }
+
+
+//}
+//NAMES[NAMES.Length] = "";
+//for (int loop = 2; loop < NAMES.Length; loop++)
+//{
+//    Console.WriteLine(NAMES[loop]);
+//}
+
+//challneg 12
+
+for (double NUMBER = 100000; NUMBER <= 999999999999999999; NUMBER++)
+{
+    bool Isprime = true;
+    for (int i = 2; i < NUMBER; i++)
+    {
+        if (NUMBER % i == 0)
+        {
+            Isprime = false;
+        }
+    }
+    if (Isprime == true)
+    {
+        Console.Write(NUMBER + ",");
+    }
+}
+
+
 
